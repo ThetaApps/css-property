@@ -1,3 +1,138 @@
-css-cursor-alias {
-  
+.title {font-weight: bold;}
+.desc {color: #969896;}
+
+/* Built-in Cursors */
+.cursor-alias {
+  cursor: alias;
+}
+.cursor-all-scroll {
+  cursor: all-scroll;
+}
+.cursor-auto {
+  cursor: auto;
+}
+.cursor-cell {
+  cursor: cell;
+}
+.cursor-context-menu {
+  cursor: context-menu;
+}
+.cursor-col-resize {
+  cursor: col-resize;
+}
+.cursor-copy {
+  cursor: copy;
+}
+.cursor-crosshair {
+  cursor: crosshair;
+}
+.cursor-default {
+  cursor: default;
+}
+.cursor-e-resize {
+  cursor: e-resize;
+}
+.cursor-ew-resize {
+  cursor: ew-resize;
+}
+.cursor-grab {
+  cursor: grab;
+}
+.cursor-grabbing {
+  cursor: grabbing;
+}
+.cursor-help {
+  cursor: help;
+}
+.cursor-initial {
+  cursor: initial;
+}
+.cursor-move {
+  cursor: move;
+}
+.cursor-n-resize {
+  cursor: n-resize;
+}
+.cursor-ne-resize {
+  cursor: ne-resize;
+}
+.cursor-nesw-resize {
+  cursor: nesw-resize;
+}
+.cursor-ns-resize {
+  cursor: ns-resize;
+}
+.cursor-nw-resize {
+  cursor: nw-resize;
+}
+.cursor-no-drop {
+  cursor: no-drop;
+}
+.cursor-none {
+  cursor: none;
+}
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-progress {
+  cursor: progress;
+}
+.cursor-row-resize {
+  cursor: row-resize;
+}
+.cursor-s-resize {
+  cursor: s-resize;
+}
+.cursor-se-resize {
+  cursor: se-resize;
+}
+.cursor-sw-resize {
+  cursor: sw-resize;
+}
+.cursor-text {
+  cursor: text;
+}
+.cursor-url {
+  cursor: url(), auto;
+}
+.cursor-vertical-text {
+  cursor: vertical-text;
+}
+.cursor-w-resize {
+  cursor: w-resize;
+}
+.cursor-wait {
+  cursor: wait;
+}
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+.cursor-zoom-out {
+  cursor: zoom-out;
+}
+
+/* URL Cursors */
+.cursor-url-soul {
+  cursor: url(soul.png), auto;
+}
+
+/* Animated Cursors */
+.cursor-animate-resize {
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+/* Animations */
+@keyframes cursor-ani-css3 {
+  0% {cursor: n-resize;}
+  12.5% {cursor: ne-resize;}
+  25% {cursor: e-resize;}
+  37.5% {cursor: se-resize;}
+  50% {cursor: s-resize;}
+  62.5% {cursor: sw-resize;}
+  75% {cursor: w-resize;}
+  87.5% {cursor: nw-resize;}
 }
