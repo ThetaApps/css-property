@@ -115,8 +115,41 @@
 }
 
 /* URL Cursors */
+.cursor-url {
+  cursor: url(smile.png), auto;
+}
+.cursor-url-fire {
+  cursor: url(fire.png), auto;
+}
+.cursor-url-jedi {
+  cursor: url(lightsaber.png), auto;
+}
+.cursor-url-mac {
+  cursor: url(osx.png), auto;
+}
+.cursor-url-navi {
+  cursor: url(navi.gif), auto;
+}
+.cursor-url-pickaxe {
+  cursor: url(pickaxe.png), auto;
+}
+.cursor-url-portal {
+  cursor: url(portal.png), auto;
+}
 .cursor-url-soul {
   cursor: url(soul.png), auto;
+}
+.cursor-url-target {
+  cursor: url(target.png), auto;
+}
+.cursor-url-wand {
+  cursor: url(wand.png), auto;
+}
+a.cursor-url-wand {
+  cursor: url(wand-click.png), auto;
+}
+.cursor-url-win {
+  cursor: url(windows.png), auto;
 }
 
 /* Animated Cursors */
